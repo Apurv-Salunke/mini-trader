@@ -1,0 +1,11 @@
+# Testing
+pytest
+
+# Code quality tools
+pre-commit
+ruff
+black
+isort
+
+# Project dependencies
+pyzmq  # For ZeroMQ, which we'll use in the EventBus

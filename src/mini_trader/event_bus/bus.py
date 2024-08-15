@@ -3,7 +3,9 @@
 import queue
 from threading import Thread
 from typing import Callable, Dict, List
+
 from .event import Event, EventType
+
 
 class EventBus:
     def __init__(self):
